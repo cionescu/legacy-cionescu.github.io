@@ -45,6 +45,14 @@ $offwhite   : #f9f9ff;
 $black      : #222;
 
 */
+
+.this-is-me {
+  line-height: 45px;
+  font-size: 17px;
+  font-stretch: 100%;
+  font-family: sans-serif;
+}
+
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
