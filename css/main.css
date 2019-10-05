@@ -2512,7 +2512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  margin-top: 6rem;
 }
 
 .banner-left h6 {
