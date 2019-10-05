@@ -50,7 +50,7 @@ $black      : #222;
   line-height: 45px;
   font-size: 17px;
   font-stretch: 100%;
-  font-family: sans-serif;
+  font-family: "Avenir Next", sans-serif;
 }
 
 /* =================================== */
@@ -4555,6 +4555,35 @@ dl.accordion.time-line:before {
 
 .footer-text a {
   color: #8490ff;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://uploads-ssl.webflow.com/5d82a99beb8133809e4fa422/5d8339cb28a601cb5970fcb5_AvenirNext-UltraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://uploads-ssl.webflow.com/5d82a99beb8133809e4fa422/5d8339ccbe860b128a1fe340_AvenirNext-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://uploads-ssl.webflow.com/5d82a99beb8133809e4fa422/5d8339cb060d002ab4df5b00_AvenirNext-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://uploads-ssl.webflow.com/5d82a99beb8133809e4fa422/5d8339cb8fcf3946986527a5_AvenirNext-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 /*-------- end footer Area -------------*/
