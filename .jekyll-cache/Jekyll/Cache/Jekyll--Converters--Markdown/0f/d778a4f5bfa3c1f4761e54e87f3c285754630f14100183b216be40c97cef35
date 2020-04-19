@@ -1,0 +1,20 @@
+I"¦<p>Most business dealing with scheduling appointments had troubles with no-shows. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5983071/">A study published in 2017</a> revealed that sending text reminders before an appointment can increase the attendance rates.</p>
+
+<p>Letâ€™s assume that you have a model named Event where you store each appointment and reference the user.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">CreateEvents</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Migration</span><span class="p">[</span><span class="mf">6.0</span><span class="p">]</span>
+<span class="k">def</span> <span class="nf">change</span>
+<span class="n">create_table</span> <span class="ss">:events</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+<span class="n">t</span><span class="p">.</span><span class="nf">datetime</span> <span class="ss">:start_at</span><span class="p">,</span> <span class="ss">null: </span><span class="kp">false</span>
+<span class="n">t</span><span class="p">.</span><span class="nf">datetime</span> <span class="ss">:end_at</span><span class="p">,</span> <span class="ss">null: </span><span class="kp">false</span>
+
+      <span class="n">t</span><span class="p">.</span><span class="nf">references</span> <span class="ss">:user</span><span class="p">,</span> <span class="ss">index: </span><span class="kp">true</span>
+      <span class="n">t</span><span class="p">.</span><span class="nf">references</span> <span class="ss">:client</span><span class="p">,</span> <span class="ss">index: </span><span class="kp">true</span>
+
+      <span class="n">t</span><span class="p">.</span><span class="nf">timestamps</span>
+    <span class="k">end</span>
+
+<span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+:ET

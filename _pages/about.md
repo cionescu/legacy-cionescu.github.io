@@ -2,19 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-image: '/assets/img/01.jpg'
+image:
 ---
 
-Hi, my name is Derrick Wells. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies.
+I'm a senior Ruby on Rails & React engineer at Mon Ami and a former Caring.com and Amazon engineer.
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity.
+As an aspiring entrepreneur, I co-founded [Blissity][blissity] in 2014. The desire was to build a marketplace for social do-gooders who would be incentivised to donate to NGOs.
 
-***
+At present, I'm trying to follow the 10% Entrepreneur philosophy and build [Organisely][organisely] on the side.
 
-> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-
-***
-
-Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.
-
-Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+[blissity]: https://www.youtube.com/watch?v=ucq9ioECuQE
+[organisely]: https://www.organisely.app
