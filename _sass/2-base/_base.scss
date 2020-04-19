@@ -1,15 +1,18 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  font-family: "Lora", Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
   color: $dark;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  input, textarea {
+  input,
+  textarea {
     border: 1px solid #f9f9f9;
     outline: none;
     &:focus:required:invalid {
@@ -18,11 +21,11 @@ body {
     &:required:valid {
       border-color: #34a74e;
     }
-    }
+  }
 }
 
 ::placeholder {
-	color: #666;
+  color: #666;
 }
 
 *::selection {
@@ -37,7 +40,7 @@ h4,
 h5,
 h6 {
   margin: 45px 0 30px;
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  font-family: "Lora", Georgia, Times, "Times New Roman", serif;
   line-height: initial;
   font-weight: 400;
   letter-spacing: 0.1px;
@@ -69,7 +72,7 @@ h6 {
 
 blockquote {
   padding-left: 30px;
-  font-family: 'Lora', Georgia, Times, serif;
+  font-family: "Lora", Georgia, Times, serif;
   font-weight: 400;
   font-style: italic;
   font-size: 18px;
@@ -90,7 +93,7 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  &+em {
+  & + em {
     text-align: center;
     display: block;
     margin-bottom: 10px;
@@ -102,21 +105,30 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: $primary-color;
-    transition: color 200ms;
+  text-decoration: none;
+  color: $primary-color;
+  transition: color 200ms;
 
-    &:hover {
-        color: $dark;
-    }
+  &:hover {
+    color: $dark;
+  }
 }
 
 hr {
+  text-align: center;
+  border: none;
   display: block;
-  width: 6px;
-  height: 6px;
-  margin: 45px auto;
-  border-radius: 50%;
-  border: 0;
-  background: $secondary-color;
+  height: auto;
+  margin-bottom: 2rem;
+
+  &:before {
+    color: $secondary-color;
+    font-style: italic;
+    text-indent: 0.6em;
+    letter-spacing: 0.6em;
+    content: "...";
+    font-size: 3rem;
+    display: block;
+    box-sizing: inherit;
+  }
 }
