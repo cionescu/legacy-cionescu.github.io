@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Partial index in postgres
-date: 2020-04-23 08:00:00 +0300
+date: 2020-04-23
 image: /assets/img/til-postgres-indexes.jpg
 image_caption: Photo by <a href="https://unsplash.com/@ikukevk" rel="nofollow">Kevin Ku</a> on Unsplash
 tags: [today-i-learned, postgresql]

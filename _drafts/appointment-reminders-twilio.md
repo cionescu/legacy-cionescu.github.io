@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sending appointment reminders with Twilio
-date: 2020-04-19 08:00:00 +0300
+date: 2020-04-14
 image: /assets/img/twilio-notifications.jpg
 tags: organisely twilio ruby-on-rails
 ---
