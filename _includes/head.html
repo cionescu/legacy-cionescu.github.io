@@ -32,4 +32,8 @@
 
   <!-- Main Stylesheet -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
+
+  {% if site.tags != "" %}
+    {% include collect_tags.html %}
+  {% endif %}
 </head>

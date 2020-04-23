@@ -32,7 +32,6 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
-  - jekyll/tagging
 
 # Pages Path
 defaults:

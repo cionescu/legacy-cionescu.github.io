@@ -10,10 +10,13 @@ layout: default
       data-aos-easing="ease-out-quad"
       data-aos-duration="700"
     >
-      <h1 class="tag__title">{{ page.tag | replace: '-', ' ' }}</h1>
+      <h1 class="tag__title">{{ page.title | replace: '-', ' ' }}</h1>
+      {% if page.subtitle %}
+        <h2 class="tag__subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
     </div>
 
-    {% for post in page.posts %}
+    {% for post in site.tags[page.tag] %}
     <!-- begin article -->
     <div
       class="article"

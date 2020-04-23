@@ -41,9 +41,10 @@ layout: default
     {% if page.tags.size >= 1 %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag"
-        >{{ tag }}</a
-      >
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="{{ site.baseurl }}/tag/{{ tag_name }}" class="post-tags__tag">
+          {{ tag_name }}
+        </a>
       {% endfor %}
     </div>
     {% endif %}
