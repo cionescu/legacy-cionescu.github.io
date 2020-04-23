@@ -6,7 +6,7 @@ image: /assets/img/twilio-notifications.jpg
 tags: organisely twilio ruby-on-rails
 ---
 
-Most business dealing with scheduling appointments are having troubles with no-shows. [A study published in 2017][text-reminders] revealed that sending text reminders before an appointment can increase the attendance rates. 
+Most business dealing with scheduling appointments are having troubles with no-shows. [A study published in 2017][text-reminders] revealed that sending text reminders before an appointment can increase the attendance rates.
 
 I'm going to present the steps required for building an automated appointment reminder system using Ruby on Rails.
 
