@@ -22,7 +22,7 @@ contact:
     link: https://www.linkedin.com/in/ciionescu/
 
 # Comment Section (Disqus)
-disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: blog-zm4kkydhzz # add your shortname for Disqus Comment. For example mr-brown
 
 # Google Analytics
 google-analytics: UA-41218514-4
@@ -32,6 +32,7 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Pages Path
 defaults:

@@ -1,17 +1,8 @@
 <head>
   <meta charset="utf-8" />
 
-  <!-- mobile responsive meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>
-    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-  </title>
-  <meta
-    name="description"
-    content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
-  />
 
   <link
     rel="canonical"
@@ -30,10 +21,9 @@
     rel="stylesheet"
   />
 
-  <!-- Main Stylesheet -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" />
 
-  <meta name="google-site-verification" content="AzTbVkVK4LtPpWndnzwvBjzlBu3kM2xDxbf_dE9kX_g" />
+  {% seo %}
 
   {% if site.tags != "" %}
     {% include collect_tags.html %}
