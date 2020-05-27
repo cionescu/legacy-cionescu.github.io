@@ -13,15 +13,12 @@ layout: default
     >
       <h1 class="post__title">{{ page.title | escape }}</h1>
       <div class="post__date">
-        <time datetime="{{ page.date | date_to_xmlschema }}"
-          >Published {{page.date | date: '%b %d, %Y'}}</time
-        >
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          Published {{page.date | date: '%b %d, %Y'}}
+        </time>
       </div>
       {% if page.image %}
-      <div
-        class="post-image img-blur"
-        style="background-image: url({{site.baseurl}}{{page.image}})"
-      ></div>
+        <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
         {% if page.image_caption %}
           <small>{{ page.image_caption }}</small>
         {% endif %}
