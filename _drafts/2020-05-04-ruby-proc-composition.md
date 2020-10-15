@@ -8,9 +8,11 @@ image_caption: Photo by <a href="http://www.nerdytshirt.com/composed.html" rel="
 tags: [today-i-learned, ruby]
 ---
 
+I was bewildered today by some piece of code I found in our app. Turns out it was just Proc composition.
+
 ## What is Proc composition?
 
-Ruby 2.6 [added function composition][thoughtbot] to Proc and Method classes. 
+Ruby 2.6 [added function composition][thoughtbot] to Proc and Method classes.
 
 ![Function composition](/assets/img/til-proc-composition.jpg)
 
