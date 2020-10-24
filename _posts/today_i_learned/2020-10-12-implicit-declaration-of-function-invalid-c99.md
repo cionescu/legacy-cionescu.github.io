@@ -38,7 +38,7 @@ gem install thin -- --with-cflags="-Wno-error=implicit-function-declaration"
 ## Same solution works if you are trying to install `mailcatcher`
 
 {% highlight bash %}
-gem install mailcatcher -- --with-cflags="-Wno-error=implicit-function-declaration"
+  gem install mailcatcher -- --with-cflags="-Wno-error=implicit-function-declaration"
 {% endhighlight %}
 
 ### Credits for the solution:
