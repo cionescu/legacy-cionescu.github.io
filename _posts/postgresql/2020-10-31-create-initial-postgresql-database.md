@@ -5,6 +5,7 @@ description: "You've just installed PostgreSQL and attempt to run psql and get t
 date: 2020-10-31
 image:
 image_caption:
+permalink: create-initial-postgresql-database
 tags: [postgresql]
 ---
 

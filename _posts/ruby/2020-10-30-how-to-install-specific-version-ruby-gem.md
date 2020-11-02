@@ -5,6 +5,7 @@ description:
 date: 2020-10-30
 image:
 image_caption:
+permalink: how-to-install-specific-version-ruby-gem
 tags: [ruby]
 ---
 
