@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to Delete a Git Branch Locally?
-date: 2020-11-02
+title: Git Delete Local Branch
+date: 2020-12-20
 image:
 image_caption:
-permalink: how-to-delete-git-branch-locally
+permalink: git-delete-local-branch
 tags: [git]
 ---
 
