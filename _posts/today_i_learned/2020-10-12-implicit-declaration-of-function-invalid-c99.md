@@ -41,6 +41,12 @@ gem install thin -- --with-cflags="-Wno-error=implicit-function-declaration"
   gem install mailcatcher -- --with-cflags="-Wno-error=implicit-function-declaration"
 {% endhighlight %}
 
+## If you are installing the gem using bundler, then you can change bundler's config to use the C flags
+
+{% highlight bash %}
+  bundle config build.thin --with-cflags="-Wno-error=implicit-function-declaration"
+{% endhighlight %}
+
 ### Credits for the solution:
 
 [Mike Szyndel on Github](https://github.com/macournoyer/thin/issues/365#issuecomment-692063842)
