@@ -40,7 +40,13 @@ The status is used as an enum:
   }
 {% endhighlight %}
 
-Since most of our reads will deal with *pending* and *completed* events, we only want to index those:
+Since most of our reads will deal with *pending* and *completed* events, we only want to index those. When performing a Ruby on Rails migration, you can use the `where` option for `add_index`:
+
+{% highlight ruby %}
+  add_index :events, [:start_at, :end_at], unique: true, where: "status <> 2"
+{% endhighlight %}
+
+results in:
 
 {% highlight sql %}
   CREATE INDEX idx_events_status_not_closed ON public.events(start_at, end_at) WHERE status <> 2;
